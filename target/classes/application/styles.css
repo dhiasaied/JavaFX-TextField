@@ -1,0 +1,91 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #e8f0ec, #d5e4dc 45%, #c8d9d0);
+}
+
+.form-card {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: rgba(255, 255, 255, 0.7);
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(30, 53, 48, 0.18), 32, 0.2, 0, 12);
+    -fx-padding: 40 44 36 44;
+}
+
+.brand-mark {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 11px;
+    -fx-text-fill: #8a6f3d;
+    -fx-padding: 0 0 4 0;
+}
+
+.title-label {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a2e2a;
+}
+
+.subtitle-label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13px;
+    -fx-text-fill: #5a7068;
+    -fx-padding: 0 0 8 0;
+}
+
+.field-label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3d524b;
+}
+
+.modern-field {
+    -fx-background-color: #f4f8f6;
+    -fx-background-radius: 12;
+    -fx-border-color: #c5d4cc;
+    -fx-border-radius: 12;
+    -fx-border-width: 1.5;
+    -fx-padding: 12 14;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-text-fill: #1a2e2a;
+    -fx-prompt-text-fill: #8aa095;
+    -fx-pref-height: 44;
+}
+
+.modern-field:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #c9a96e;
+    -fx-effect: dropshadow(gaussian, rgba(201, 169, 110, 0.35), 10, 0.3, 0, 0);
+}
+
+.submit-button {
+    -fx-background-color: linear-gradient(to right, #1a2e2a, #2a4a42);
+    -fx-background-radius: 22;
+    -fx-text-fill: #f5f0e8;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 13 28;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(26, 46, 42, 0.28), 14, 0.25, 0, 4);
+}
+
+.submit-button:hover {
+    -fx-background-color: linear-gradient(to right, #243d38, #355a50);
+}
+
+.submit-button:pressed {
+    -fx-background-color: #152622;
+    -fx-translate-y: 1;
+}
+
+.accent-line {
+    -fx-background-color: #c9a96e;
+    -fx-background-radius: 2;
+    -fx-pref-height: 3;
+    -fx-max-height: 3;
+    -fx-pref-width: 48;
+    -fx-max-width: 48;
+}
